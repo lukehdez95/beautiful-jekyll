@@ -5,7 +5,7 @@ subtitle: NYC is known for its pedestrians not needing a car, but does that make
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [NYC]
+tags: [NYC],[Accidents],[Motor Vehicles],[Pedestrians]
 ---
 
 I've been living in New York City (NYC) all of my life, and, despite having my driver's license, I have never owned a car.
