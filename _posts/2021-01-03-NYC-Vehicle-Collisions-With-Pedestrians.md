@@ -2,7 +2,7 @@
 layout: post
 title: New York City Car-Pedestrian Accidents
 subtitle: NYC is known for its pedestrians not needing a car, but does that make the roads safe for them?
-date: 2020-01-04
+date: 2021-01-03
 cover-img: 
 thumbnail-img: 
 share-img: 
