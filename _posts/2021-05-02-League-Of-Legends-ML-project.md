@@ -21,7 +21,8 @@ After reading in my data, I ran it through pandas profile inspector view some su
 
 I noticed that I had some duplicates that I had to deal with, no null values, and a couple ones with zero values but thats okay, in these cases those 0s just mean that no team captured those objectives.
 
-After dealing with the duplicate rows, I established a baseline, where I found that about 50.6% of the time Team1 would win, and 49.4% of the time Team2 would win. Assuming the majority class would give me a baseline percentage of 50.6%, which allows me to use accuracy as my metric. ![data_1](/assets/img/baselineaccuracy.png)
+After dealing with the duplicate rows, I established a baseline, where I found that about 50.6% of the time Team1 would win, and 49.4% of the time Team2 would win. Assuming the majority class would give me a baseline percentage of 50.6%, which allows me to use accuracy as my metric. 
+![data_1](/assets/img/baselineaccuracy.png)
 
 I added 5 features, each tracking whether Team1 or Team2 had captured more of a particular objective than their opponent, with 1 being Team1, 2 being Team2, and 0 meaning that they both had captured the same number of that particular objective. These features were mostTowerKills, mostInhibitorKills, mostBaronKills, mostDragonKills, and mostRiftHeraldKills.
 
