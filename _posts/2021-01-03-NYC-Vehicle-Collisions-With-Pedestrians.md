@@ -6,7 +6,7 @@ date: 2021-01-03
 cover-img: 
 thumbnail-img: 
 share-img: 
-tags: [NYC],[Accidents],[Motor Vehicles],[Pedestrians]
+tags: [NYC,Accidents,Motor Vehicles,Pedestrians]
 ---
 
 I've been living in New York City (NYC) all of my life, and, despite having my driver's license, I have never owned a car.
