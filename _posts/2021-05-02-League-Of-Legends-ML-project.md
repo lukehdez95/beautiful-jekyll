@@ -36,22 +36,22 @@ I made a Tree-based, Gradient Boosting Classifier model, which was able to corre
 Finally I made a XGBoost Classifier model, which was able to correctly predict team victories around 97% of the time as well.\
 ![data_4](/assets/img/xgbaccuracy.PNG)
 
-All 3 models showed me that the most important feature, *by a huge margin* was the team with the most tower kills. ![data_5](assets/img/GBC-Feature-Importances.png)
+All 3 models showed me that the most important feature, *by a huge margin* was the team with the most tower kills. ![data_5](/assets/img/GBC-Feature-Importances.png)
 
 This makes sense to me, the team with the most towers killed almost always wins. After all, a prerequisite to being able to take the nexus and claim victory is destroying a minimum of 5 towers, and an inhibitor.
 
 I however was unsatisfied with this, I felt it was a foregone conclusion that a team with more objectives would almost always win. I now wanted to see if there was a correlation between who took the *first* objectives of each category.
 
 After removing features save the 'first' features and putting them through a Gradient Boosting Classifier model, I found that I was only able to correctly predict a team's victory about 90% of the time.\
-![data_6](/assets/img/gbc2accuracy.PNG)
+![data_6](/assets/img/gbc2accuracy.PNG)\
 I found that the largest contributing factor to victories in this case was the team who was first to destroy an inhibitor.\
 ![data_7](/assets/img/GBC2-Feature-Importances.png)
 
 This also made sense to me, but again, destroying an inhibitor happens usually very late in a game. In order to destroy an inhibitor you must destroy a minimum of 3 towers. I want to be able to tell even earlier what objectives winning teams usually take, so I did this once again, but without the firstInhibitor feature. 
 
 This time I saw that the firstBaron and firstTower were largely correlated with victory as well, however I could only correctly predict the victor around 81% of the time.\
-![data_8](/assets/img/gbc3accuracy.PNG)
-![data_9](assets/img/GBC3-Feature-Importances.png)
+![data_8](/assets/img/gbc3accuracy.PNG)\
+![data_9](/assets/img/GBC3-Feature-Importances.png)
 
 There are a few take-aways from this:
 1. Nothing is worth giving up your tower. If you can stop them, you should, but if you can't stop them giving them a kill on top of the tower that they would get anyway is even worse.
