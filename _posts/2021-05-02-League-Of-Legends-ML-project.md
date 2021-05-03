@@ -44,6 +44,7 @@ I however was unsatisfied with this, I felt it was a foregone conclusion that a 
 
 After removing features save the 'first' features and putting them through a Gradient Boosting Classifier model, I found that I was only able to correctly predict a team's victory about 90% of the time.\
 ![data_6](/assets/img/gbc2accuracy.PNG)\
+
 I found that the largest contributing factor to victories in this case was the team who was first to destroy an inhibitor.\
 ![data_7](/assets/img/GBC2-Feature-Importances.png)
 
