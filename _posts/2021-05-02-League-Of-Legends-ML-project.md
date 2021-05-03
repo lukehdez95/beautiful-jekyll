@@ -19,7 +19,7 @@ I have played League of Legends for a couple of years now, and have somewhat of 
 
 After reading in my data, I ran it through pandas profile inspector view some surface level data analysis with the data.
 
-{include PandasProfiling.html}
+<iframe src="https://lukehdez95.github.io/PandasProfiling.html" height="800px" width="100%"></iframe>
 
 I noticed that I had some duplicates that I had to deal with, no null values, and a couple ones with zero values but thats okay, in these cases those 0s just mean that no team captured those objectives.
 
