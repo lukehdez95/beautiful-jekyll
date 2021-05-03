@@ -10,6 +10,7 @@ tags: [League of Legends, MOBA, e-sports, gaming]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BGtROJeMPeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 League of Legends is an online game known as a MOBA, or Multiplayer Online Battle Arena. A team of 5 players takes on another team of 5 players, in order to capture various objectives around the map known as Summoner's Rift. The ultimate objective? To destroy the opposing team's nexus before they destroy yours.
 
 As of today, League of Legends continues to be the biggest e-sport in the world. In 2018, the [League of Legends World Championship brought in viewers rivalling that of the NFL SuperBowl](https://dotesports.com/league-of-legends/news/league-of-legends-vs-superbowl-viewer-numbers). 
