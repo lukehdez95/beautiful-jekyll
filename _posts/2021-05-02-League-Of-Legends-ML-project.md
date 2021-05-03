@@ -33,7 +33,7 @@ I made a Tree-based, Gradient Boosting Classifier model, which was able to corre
 
 Finally I made a XGBoost Classifier model, which was able to correctly predict team victories around 97% of the time as well. ![data_4](/assets/img/xgbaccuracy.PNG)
 
-All 3 models showed me that the most important feature, *by a huge margin* was the team with the most tower kills. ![data_5](/assets/img/GBC Feature Importances.png)
+All 3 models showed me that the most important feature, *by a huge margin* was the team with the most tower kills. ![data_5](assets/img/GBC Feature Importances.png)
 
 This makes sense to me, the team with the most towers killed almost always wins. After all, a prerequisite to being able to take the nexus and claim victory is destroying a minimum of 5 towers, and an inhibitor.
 
