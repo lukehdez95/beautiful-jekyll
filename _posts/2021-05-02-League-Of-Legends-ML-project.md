@@ -18,7 +18,7 @@ As of today, League of Legends continues to be the biggest e-sport in the world.
 I have played League of Legends for a couple of years now, and have somewhat of a love-hate relationship with the game. Why? Simply because I hate losing. What better way to improve my winrate than to look at the [data from over 50,000 ranked games](https://www.kaggle.com/datasnaek/league-of-legends) and use my Data Science knowledge to see if I could analyze what exactly are the things that leads to victory in a League of Legends game.
 
 After reading in my data, I ran it through pandas profile inspector view some surface level data analysis with the data.\
-{% include PandasProfiling.html %}
+<iframe src="/_includes/PandasProfiling.html"></iframe>
 
 I noticed that I had some duplicates that I had to deal with, no null values, and a couple ones with zero values but thats okay, in these cases those 0s just mean that no team captured those objectives.
 
